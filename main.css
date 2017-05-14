@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus|Numans|Roboto+Mono');
+
+@font-face {
+    font-family: 'Everson Mono Latin 6';
+    src: url('emlatin6.ttf');
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.page {
+    background-image: url('main.jpg');
+    background-size: 100%;
+}
+
+.page .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.page .overlay .title {
+    margin-top: 10vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Everson Mono Latin 6';
+    color: white;
+    position: absolute;
+    left: 0px;
+}
+
+.page .overlay .title .main {
+    font-size: 6rem;
+}
+
+.page .overlay .title .slogan {
+
+    margin-top: -1rem;
+    font-size: 2rem;
+}
+
+.page .overlay .title .ode {
+    color: #d31517;
+}
+
+.page .overlay .intro {
+    text-align: left;
+    color: white;
+    position: absolute;
+    left: 10vh;
+    top: 45vh;
+}
+
+.page .overlay .intro .joke {
+    padding-bottom: 3vh;
+    font-style: italic;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page .overlay .intro .name {
+    font-family: 'Numans', sans-serif;
+    font-size: 3rem;
+}
+
+.page .overlay .intro .description {
+    font-family: 'Marcellus', serif;
+    font-size: 1.5em;
+}
+
+.page .overlay .intro .greetings {
+    padding-right: 10px;
+}
+
+.pointer {
+    border-right: 1px solid white;
+}

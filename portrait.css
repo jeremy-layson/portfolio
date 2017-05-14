@@ -1,0 +1,12 @@
+.page {
+    background-image: url('main.jpg');
+    background-size: auto 100%;
+}
+
+.page .overlay .title {
+    margin-top: 5vh;
+}
+
+.page .overlay .title .main {
+    font-size: 10rem;
+}
